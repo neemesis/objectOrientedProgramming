@@ -70,7 +70,7 @@ public:
 
 ostream &operator <<(ostream &out, turistichka_agencija &from) {
 	for (int i = 0; i < from.broj; ++i) {
-		out << &from.letuvanja[i] << endl;
+		out << from.letuvanja[i] << endl;
 	}
 	return out;
 }
@@ -108,7 +108,7 @@ int main() {
 	cout << poln[4] -> cena() << endl;
 	turistichka_agencija bla(poln, 5);
 	cout << bla << endl;
-	cout << bla.najevtino() << endl;
+	//cout << bla.najevtino() << endl;
 	return 0;
 }
 

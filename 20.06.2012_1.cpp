@@ -80,7 +80,6 @@ int main() {
 	Kompjuter komp3("Fo", "255.123.548.654", 60);
 	Kompjuter komp4("MDo", "255.1238748.654", 60);
 	Kompjuter komp5("MaWQEo", "24889123.548.654", 60);
-	cout << komp;
 	Host host("Host");
 	host += komp;
 	host += komp2;
