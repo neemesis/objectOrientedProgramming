@@ -2,26 +2,10 @@
 #include <string.h>
 using namespace std;
 
-class blabla {
-private:
-	
-public:
-	blabla() {
-		cout << "Ima me :D" << endl;
-	}
-};
-
-void funkcija(blabla &from) {
-	cout << "Funkcija: " << &from << endl;
-}
+void pechatiStatic(int a) {a += 9; cout << a << endl;}
 
 int main() {
-	blabla eden;
-	blabla dva;
-	cout << &eden << endl << &dva << endl;
-	funkcija(eden);
-	if (&eden == &eden) {
-		cout << "Isti" << endl;
-	}
+	static int a = 9;
+	pechatiStatic(a);
 	return 0;
 }
