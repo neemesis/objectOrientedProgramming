@@ -1,0 +1,36 @@
+@base <https://www.dropbox.com/s/4g9xoeik0i2keig/foaf.ttl?dl=1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Me> a foaf:Person 
+   ; foaf:title "Mr" 
+   ; foaf:givenName "Mirche" 
+   ; foaf:familyName "Toshevski" 
+   ; foaf:name "Mr Mirche Toshevski" 
+   ; foaf:nick "MT" 
+   ; foaf:mbox_sha1sum "2664a5067281fbfec35595b916bb0a8a38d75bb3" 
+   ; foaf:homepage <https://www.facebook.com/mirche.toshevski> 
+   ; foaf:weblog <> 
+   ; foaf:skypeID "mirche.toshevski" 
+   ; foaf:tipJar <> 
+   ; foaf:account <> 
+   ; foaf:account <https://www.facebook.com/mirche.toshevski> 
+   ; foaf:account <> 
+   ; foaf:age "22" 
+   ; foaf:workplaceHomepage <> 
+   ; foaf:schoolHomepage <www.finki.ukim.mk> 
+   ; foaf:based_near "Skopje" 
+   ; foaf:currentProject <> 
+   ; foaf:img <https://www.dropbox.com/s/so5zsq6qqpr3l2u/InstaSize_1218135606.jpg?dl=1> 
+   ; foaf:publications <> 
+   ; foaf:made <> 
+. 
+
+<https://www.dropbox.com/s/4g9xoeik0i2keig/foaf.ttl?dl=1#Me> foaf:knows <https://www.dropbox.com/s/ab2oe6tyv30fk63/foaf.ttl?dl=1> . 
+
+<https://www.dropbox.com/s/ab2oe6tyv30fk63/foaf.ttl?dl=1> a foaf:Person 
+   ; foaf:name "Ilija Iliev" 
+   ; foaf:mbox_sha1sum "bfb0d05ed02ab323aa0fec71c3b52eabf9356aee" 
+. 
+
